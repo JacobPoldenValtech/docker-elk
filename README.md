@@ -1,3 +1,10 @@
+# What is this?
+Just a fork of [https://gitter.im/deviantony/docker-elk](https://gitter.im/deviantony/docker-elk) with some configuration to enable apm server. 
+
+Created so we can test the APM client behaviour on the WebApp. To run the stack:
+
+`docker-compose -f docker-compose.yml -f extensions/apm-server/apm-server-compose.yml up`
+
 # Elastic stack (ELK) on Docker
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
